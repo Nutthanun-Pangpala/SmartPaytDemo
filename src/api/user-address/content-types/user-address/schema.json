@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_addresses",
+  "info": {
+    "singularName": "user-address",
+    "pluralName": "user-addresses",
+    "displayName": "User-address"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ID_card_No": {
+      "type": "biginteger"
+    },
+    "Phone_No": {
+      "type": "biginteger"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Home_ID": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "text"
+    }
+  }
+}
